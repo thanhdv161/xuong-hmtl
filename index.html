@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.scss" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <a href="" class="header-logo">
+            <img src="./assets/logo.svg" alt="" />
+          </a>
+          <nav class="main-menu">
+            <ul class="main-menu__list">
+              <li class="main-menu__item">
+                <a href="" class="main-menu__link">Home</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="" class="main-menu__link">Shop</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="" class="main-menu__link">About</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="" class="main-menu__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          
+          <div class="header-items">
+            <div class="header-item-user">
+                <span><img src="./assets/1.svg" /></span>
+            </div>
+            <div class="header-item-user">
+                <span><img src="./assets/2.svg" /></span>
+            </div>
+            <div class="header-item-user">
+                <span><img src="./assets/3.svg" /></span>
+            </div>
+            <div class="header-item-user">
+                <span><img src="./assets/4.svg" /></span>
+            </div>
+        </div>
+        </div>
+      </div>
+    </header>
+    <!-- End-header -->
+    <section class="banner">
+      <img src="./assets/banner-home.png" alt="" class="banner__img" />
+      <div class="banner__text">
+        <span>Trang chủ</span>
+        <p>Home</p>
+      </div>
+    </section>
+    <!-- End banner -->
+    <section class="news">
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="section-heading__title">New</h2>
+        </div>
+        <div class="section-body">
+          <div class="product-list">
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="/assets/image 1.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-sale">30%</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product__name">
+                  <a href="" class="product__link">Syltherine</a>
+                </h3>
+                <a href="" class="product__category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.500.000đ</span>
+                  <span class="product-price__old">3.500.000đ</span>
+                </div>
+              </div>
+              <div class="product-action">
+                <button class="btn product-action__btn">
+                  Quick view
+                </button>
+                <button class="btn product-action__btn">
+                  Add to cart
+                </button>
+
+                <div class="product-action__more">
+                  <span class="product-action__share"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 384 432"
+                    >
+                      <path
+                        fill="#ffffff"
+                        d="M320 303q26 0 44 18.5t18 44t-18 44t-44 18.5t-44-18.5t-18-44.5q0-6 1-14l-151-88q-19 17-44 17q-27 0-45.5-18.5T0 216t18.5-45.5T64 152q25 0 44 17l150-87q-2-9-2-15q0-27 18.5-45.5T320 3t45.5 18.5t18.5 45t-18.5 45.5t-45.5 19q-25 0-44-18l-150 88q2 9 2 15t-2 15l152 88q18-16 42-16z"
+                      /></svg>Share</span
+                  >
+                  <span class="product-action__compare">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 14 14"><path fill="#ffffff" fill-rule="evenodd" d="M9.354.146A.5.5 0 0 0 8.5.5V2h-6A2.5 2.5 0 0 0 0 4.5V6a1 1 0 0 0 2 0V4.5a.5.5 0 0 1 .5-.5h6v1.5a.5.5 0 0 0 .854.354l2.5-2.5a.5.5 0 0 0 0-.708zM5.19 8.038a.5.5 0 0 1 .31.462V10h6a.5.5 0 0 0 .5-.5V8a1 1 0 1 1 2 0v1.5a2.5 2.5 0 0 1-2.5 2.5h-6v1.5a.5.5 0 0 1-.854.354l-2.5-2.5a.5.5 0 0 1 0-.708l2.5-2.5a.5.5 0 0 1 .545-.108Z" clip-rule="evenodd"/></svg>
+                    Compare</span>
+                  <span class="product-action__like">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="#ffffff" fill-rule="evenodd" d="M1.633 2.796c.762-.837 1.85-1.297 3.127-1.297c1.164 0 2.407.55 3.24 1.626c.828-1.075 2.066-1.626 3.24-1.626c1.274 0 2.36.458 3.124 1.293c.756.828 1.136 1.962 1.136 3.22c0 2.166-1.113 3.909-2.522 5.264c-1.405 1.352-3.17 2.383-4.633 3.14a.75.75 0 0 1-.693-.002c-1.463-.765-3.228-1.788-4.633-3.133C1.61 9.93.5 8.193.5 6.013c0-1.255.378-2.389 1.133-3.217m1.109 1.01C2.287 4.306 2 5.053 2 6.013c0 1.624.816 2.996 2.057 4.184c1.146 1.098 2.6 1.985 3.945 2.705c1.335-.71 2.79-1.604 3.937-2.707C13.182 8.998 14 7.62 14 6.013c0-.963-.288-1.71-.744-2.21C12.808 3.314 12.14 3 11.24 3c-.976 0-2.093.628-2.527 1.95a.75.75 0 0 1-1.426 0C6.854 3.63 5.725 3 4.76 3c-.903 0-1.57.315-2.018.807Z" clip-rule="evenodd"/></svg>Like</span>
+                </div>
+              </div>
+            </div>
+            <!-- End product item -->
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="/assets/image 2.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-sale">30%</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product__name">
+                  <a href="" class="product__link">Syltherine</a>
+                </h3>
+                <a href="" class="product__category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.500.000đ</span>
+                  <span class="product-price__old">3.500.000đ</span>
+                </div>
+              </div>
+              <div class="product-action">
+                <button class="btn product-action__btn">
+                  Quick view
+                </button>
+                <button class="btn product-action__btn">
+                  Add to cart
+                </button>
+
+                <div class="product-action__more">
+                  <span class="product-action__share"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 384 432"
+                    >
+                      <path
+                        fill="#ffffff"
+                        d="M320 303q26 0 44 18.5t18 44t-18 44t-44 18.5t-44-18.5t-18-44.5q0-6 1-14l-151-88q-19 17-44 17q-27 0-45.5-18.5T0 216t18.5-45.5T64 152q25 0 44 17l150-87q-2-9-2-15q0-27 18.5-45.5T320 3t45.5 18.5t18.5 45t-18.5 45.5t-45.5 19q-25 0-44-18l-150 88q2 9 2 15t-2 15l152 88q18-16 42-16z"
+                      /></svg>Share</span
+                  >
+                  <span class="product-action__compare">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 14 14"><path fill="#ffffff" fill-rule="evenodd" d="M9.354.146A.5.5 0 0 0 8.5.5V2h-6A2.5 2.5 0 0 0 0 4.5V6a1 1 0 0 0 2 0V4.5a.5.5 0 0 1 .5-.5h6v1.5a.5.5 0 0 0 .854.354l2.5-2.5a.5.5 0 0 0 0-.708zM5.19 8.038a.5.5 0 0 1 .31.462V10h6a.5.5 0 0 0 .5-.5V8a1 1 0 1 1 2 0v1.5a2.5 2.5 0 0 1-2.5 2.5h-6v1.5a.5.5 0 0 1-.854.354l-2.5-2.5a.5.5 0 0 1 0-.708l2.5-2.5a.5.5 0 0 1 .545-.108Z" clip-rule="evenodd"/></svg>
+                    Compare</span>
+                  <span class="product-action__like">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="#ffffff" fill-rule="evenodd" d="M1.633 2.796c.762-.837 1.85-1.297 3.127-1.297c1.164 0 2.407.55 3.24 1.626c.828-1.075 2.066-1.626 3.24-1.626c1.274 0 2.36.458 3.124 1.293c.756.828 1.136 1.962 1.136 3.22c0 2.166-1.113 3.909-2.522 5.264c-1.405 1.352-3.17 2.383-4.633 3.14a.75.75 0 0 1-.693-.002c-1.463-.765-3.228-1.788-4.633-3.133C1.61 9.93.5 8.193.5 6.013c0-1.255.378-2.389 1.133-3.217m1.109 1.01C2.287 4.306 2 5.053 2 6.013c0 1.624.816 2.996 2.057 4.184c1.146 1.098 2.6 1.985 3.945 2.705c1.335-.71 2.79-1.604 3.937-2.707C13.182 8.998 14 7.62 14 6.013c0-.963-.288-1.71-.744-2.21C12.808 3.314 12.14 3 11.24 3c-.976 0-2.093.628-2.527 1.95a.75.75 0 0 1-1.426 0C6.854 3.63 5.725 3 4.76 3c-.903 0-1.57.315-2.018.807Z" clip-rule="evenodd"/></svg>Like</span>
+                </div>
+              </div>
+            </div>
+            <!-- End product item -->
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="/assets/image 3.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-sale">30%</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product__name">
+                  <a href="" class="product__link">Syltherine</a>
+                </h3>
+                <a href="" class="product__category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.500.000đ</span>
+                  <span class="product-price__old">3.500.000đ</span>
+                </div>
+              </div>
+              <div class="product-action">
+                <button class="btn product-action__btn">
+                  Quick view
+                </button>
+                <button class="btn product-action__btn">
+                  Add to cart
+                </button>
+
+                <div class="product-action__more">
+                  <span class="product-action__share"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 384 432"
+                    >
+                      <path
+                        fill="#ffffff"
+                        d="M320 303q26 0 44 18.5t18 44t-18 44t-44 18.5t-44-18.5t-18-44.5q0-6 1-14l-151-88q-19 17-44 17q-27 0-45.5-18.5T0 216t18.5-45.5T64 152q25 0 44 17l150-87q-2-9-2-15q0-27 18.5-45.5T320 3t45.5 18.5t18.5 45t-18.5 45.5t-45.5 19q-25 0-44-18l-150 88q2 9 2 15t-2 15l152 88q18-16 42-16z"
+                      /></svg>Share</span
+                  >
+                  <span class="product-action__compare">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 14 14"><path fill="#ffffff" fill-rule="evenodd" d="M9.354.146A.5.5 0 0 0 8.5.5V2h-6A2.5 2.5 0 0 0 0 4.5V6a1 1 0 0 0 2 0V4.5a.5.5 0 0 1 .5-.5h6v1.5a.5.5 0 0 0 .854.354l2.5-2.5a.5.5 0 0 0 0-.708zM5.19 8.038a.5.5 0 0 1 .31.462V10h6a.5.5 0 0 0 .5-.5V8a1 1 0 1 1 2 0v1.5a2.5 2.5 0 0 1-2.5 2.5h-6v1.5a.5.5 0 0 1-.854.354l-2.5-2.5a.5.5 0 0 1 0-.708l2.5-2.5a.5.5 0 0 1 .545-.108Z" clip-rule="evenodd"/></svg>
+                    Compare</span>
+                  <span class="product-action__like">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="#ffffff" fill-rule="evenodd" d="M1.633 2.796c.762-.837 1.85-1.297 3.127-1.297c1.164 0 2.407.55 3.24 1.626c.828-1.075 2.066-1.626 3.24-1.626c1.274 0 2.36.458 3.124 1.293c.756.828 1.136 1.962 1.136 3.22c0 2.166-1.113 3.909-2.522 5.264c-1.405 1.352-3.17 2.383-4.633 3.14a.75.75 0 0 1-.693-.002c-1.463-.765-3.228-1.788-4.633-3.133C1.61 9.93.5 8.193.5 6.013c0-1.255.378-2.389 1.133-3.217m1.109 1.01C2.287 4.306 2 5.053 2 6.013c0 1.624.816 2.996 2.057 4.184c1.146 1.098 2.6 1.985 3.945 2.705c1.335-.71 2.79-1.604 3.937-2.707C13.182 8.998 14 7.62 14 6.013c0-.963-.288-1.71-.744-2.21C12.808 3.314 12.14 3 11.24 3c-.976 0-2.093.628-2.527 1.95a.75.75 0 0 1-1.426 0C6.854 3.63 5.725 3 4.76 3c-.903 0-1.57.315-2.018.807Z" clip-rule="evenodd"/></svg>Like</span>
+                </div>
+              </div>
+            </div>
+            <!-- End product item -->
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="/assets/image 4.png"
+                  alt=""
+                  class="product__thumbnail"
+                />
+                <span class="product-new">NEW</span>
+              </div>
+              <div class="product-info">
+                <h3 class="product__name">
+                  <a href="" class="product__link">Syltherine</a>
+                </h3>
+                <a href="" class="product__category">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.500.000đ</span>
+                  <span class="product-price__old">3.500.000đ</span>
+                </div>
+              </div>
+              <div class="product-action">
+                <button class="btn product-action__btn">
+                  Quick view
+                </button>
+                <button class="btn product-action__btn">
+                  Add to cart
+                </button>
+                <div class="product-action__more">
+                  <span class="product-action__share"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 384 432"
+                    >
+                      <path
+                        fill="#ffffff"
+                        d="M320 303q26 0 44 18.5t18 44t-18 44t-44 18.5t-44-18.5t-18-44.5q0-6 1-14l-151-88q-19 17-44 17q-27 0-45.5-18.5T0 216t18.5-45.5T64 152q25 0 44 17l150-87q-2-9-2-15q0-27 18.5-45.5T320 3t45.5 18.5t18.5 45t-18.5 45.5t-45.5 19q-25 0-44-18l-150 88q2 9 2 15t-2 15l152 88q18-16 42-16z"
+                      /></svg>Share</span
+                  >
+                  <span class="product-action__compare">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 14 14"><path fill="#ffffff" fill-rule="evenodd" d="M9.354.146A.5.5 0 0 0 8.5.5V2h-6A2.5 2.5 0 0 0 0 4.5V6a1 1 0 0 0 2 0V4.5a.5.5 0 0 1 .5-.5h6v1.5a.5.5 0 0 0 .854.354l2.5-2.5a.5.5 0 0 0 0-.708zM5.19 8.038a.5.5 0 0 1 .31.462V10h6a.5.5 0 0 0 .5-.5V8a1 1 0 1 1 2 0v1.5a2.5 2.5 0 0 1-2.5 2.5h-6v1.5a.5.5 0 0 1-.854.354l-2.5-2.5a.5.5 0 0 1 0-.708l2.5-2.5a.5.5 0 0 1 .545-.108Z" clip-rule="evenodd"/></svg>
+                    Compare</span>
+                  <span class="product-action__like">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="#ffffff" fill-rule="evenodd" d="M1.633 2.796c.762-.837 1.85-1.297 3.127-1.297c1.164 0 2.407.55 3.24 1.626c.828-1.075 2.066-1.626 3.24-1.626c1.274 0 2.36.458 3.124 1.293c.756.828 1.136 1.962 1.136 3.22c0 2.166-1.113 3.909-2.522 5.264c-1.405 1.352-3.17 2.383-4.633 3.14a.75.75 0 0 1-.693-.002c-1.463-.765-3.228-1.788-4.633-3.133C1.61 9.93.5 8.193.5 6.013c0-1.255.378-2.389 1.133-3.217m1.109 1.01C2.287 4.306 2 5.053 2 6.013c0 1.624.816 2.996 2.057 4.184c1.146 1.098 2.6 1.985 3.945 2.705c1.335-.71 2.79-1.604 3.937-2.707C13.182 8.998 14 7.62 14 6.013c0-.963-.288-1.71-.744-2.21C12.808 3.314 12.14 3 11.24 3c-.976 0-2.093.628-2.527 1.95a.75.75 0 0 1-1.426 0C6.854 3.63 5.725 3 4.76 3c-.903 0-1.57.315-2.018.807Z" clip-rule="evenodd"/></svg>Like</span>
+                </div>
+              </div>
+            </div>
+            <!-- End product item -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End news -->
+    <section class="shop">
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="section-heading__title">Shop</h2>
+        </div>
+        <div class="section-body">
+          <div class="shops">
+            <div class="shop-item">
+              <a href="" class="shop__link"
+                ><img src="/assets/shop1.png" alt="" class="shop__image"
+              /></a>
+            </div>
+            <div class="shop-item">
+              <a href="" class="shop__link"
+                ><img src="/assets/shop2.png" alt="" class="shop__image"
+              /></a>
+            </div>
+            <div class="shop-item">
+              <a href="" class="shop__link"
+                ><img src="/assets/shop3.png" alt="" class="shop__image"
+              /></a>
+            </div>
+            <div class="shop-item">
+              <a href="" class="shop__link"
+                ><img src="/assets/shop4.png" alt="" class="shop__image"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End shop -->
+    <section class="blog">
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="section-heading__title">Blog</h2>
+        </div>
+        <div class="section-body">
+          <div class="post-list">
+            <div class="post-item">
+              <div class="post-image">
+                <a href=""
+                  ><img src="assets/blog1.png" alt="" class="post___thumbnail"
+                /></a>
+              </div>
+              <div class="post-info">
+                <h3 class="post__title">
+                  <a href="" class="post__link"
+                    >THE ULTIMATE SOFA BUYING GUIDE</a
+                  >
+                </h3>
+                <p class="post__excerpt">
+                  The versatility of our living space is more crucial than ever.
+                  But buying a sofa might be a difficult undertaking. Your needs
+                  and the size of your living area will determine everything,
+                  However, don’t worry, were are here to help you
+                </p>
+                <div class="post__readmore">
+                  <a href="" class="post__text-readmore">Readmore</a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 15 15"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M8.293 2.293a1 1 0 0 1 1.414 0l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1-1.414-1.414L11 8.5H1.5a1 1 0 0 1 0-2H11L8.293 3.707a1 1 0 0 1 0-1.414Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- End post item -->
+            <div class="post-item">
+              <div class="post-image">
+                <a href=""
+                  ><img src="assets/blog2.png" alt="" class="post___thumbnail"
+                /></a>
+              </div>
+              <div class="post-info">
+                <h3 class="post__title">
+                  <a href="" class="post__link"
+                    >A BEDROOM MUST HAVE SOME THING LIKE THIS</a
+                  >
+                </h3>
+                <p class="post__excerpt">
+                  Your level of comfort when geting into and out of bed can be
+                  greatly influenced by the bed frame you choose. It may
+                  significantly affect how want your bedroom to feet and look
+                </p>
+                <div class="post__readmore">
+                  <a href="" class="post__text-readmore">Readmore</a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 15 15"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M8.293 2.293a1 1 0 0 1 1.414 0l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1-1.414-1.414L11 8.5H1.5a1 1 0 0 1 0-2H11L8.293 3.707a1 1 0 0 1 0-1.414Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- End post item -->
+            <div class="post-item">
+              <div class="post-image">
+                <a href=""
+                  ><img src="assets/blog3.png" alt="" class="post___thumbnail"
+                /></a>
+              </div>
+              <div class="post-info">
+                <h3 class="post__title">
+                  <a href="" class="post__link"
+                    >WHY IS A TV CONSOLE A MUST IN EVERY HOUSE</a
+                  >
+                </h3>
+                <p class="post__excerpt">
+                  People do a lot of research to make sure they purchase the
+                  ideal televisoin. And like the rest of us, you want to keep
+                  that gorgeous flat srceen in your living or bedroom on a table
+                  or stand
+                </p>
+                <div class="post__readmore">
+                  <a href="" class="post__text-readmore">Readmore</a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 15 15"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M8.293 2.293a1 1 0 0 1 1.414 0l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1-1.414-1.414L11 8.5H1.5a1 1 0 0 1 0-2H11L8.293 3.707a1 1 0 0 1 0-1.414Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- End post item -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End blog -->
+
+    <section class="service">
+      <div class="container-fluid">
+        <div class="service-list">
+          <div class="service-item">
+            <img src="assets/icon-ft1.png" alt="" class="service__image" />
+            <div class="service-info">
+              <h4 class="service__name">High Quality</h4>
+              <p class="service__description">crafted from top materials</p>
+            </div>
+          </div>
+          <!--End service-item-->
+          <div class="service-item">
+            <img src="assets/icon-ft2.png" alt="" class="service__image" />
+            <div class="service-info">
+              <h4 class="service__name">Warranty Protection</h4>
+              <p class="service__description">Over 2 years</p>
+            </div>
+          </div>
+          <!--End service-item-->
+          <div class="service-item">
+            <img src="assets/icon-ft3.png" alt="" class="service__image" />
+            <div class="service-info">
+              <h4 class="service__name">Free Shipping</h4>
+              <p class="service__description">Order over 150 $</p>
+            </div>
+          </div>
+          <!--End service-item-->
+          <div class="service-item">
+            <img src="assets/icon-ft4.png" alt="" class="service__image" />
+            <div class="service-info">
+              <h4 class="service__name">24 / 7 Support</h4>
+              <p class="service__description">Dedicated support</p>
+            </div>
+          </div>
+          <!--End service-item-->
+        </div>
+      </div>
+    </section>
+    <!-- End sevices -->
+    <footer>
+      <div class="container footer">
+        <div class="footer-list">
+          <div class="footer-item">
+            <img src="./assets/logo.svg" alt="" class="footer__img"/>
+            <p class="footer-address">400 University Drive Suite 200 Coral <br> Gables, FL 33134 USA</p>
+          </div>
+          <div class="footer-item">
+            <h2>Links</h2>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Home</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Shop</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Blog</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h2>Help</h2>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Options</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Returns</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link">Privacy Policies</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <h2>Newsletter</h2>
+            <form action="" class="newsletter">
+              <input
+                type="text"
+                class="newsletter__input"
+                placeholder="Enter Your Email Address"
+              />
+              <button class="newsletter__btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <p class="copyright">2023 furino. All rights reverved</p>
+      </div>
+    </footer>
+  </body>
+</html>
